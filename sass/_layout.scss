@@ -35,12 +35,13 @@
 // content child
 .hotel-view {
   // background-color: orange;
-//   height: 80rem;
+  //   height: 80rem;
 
   flex: 1; //element should grow as much as it can
 }
 
 .detail {
+  font-size: 1.4rem;
   display: flex;
   padding: 4.5rem;
   background-color: var(--line);
@@ -48,7 +49,6 @@
 }
 
 .description {
-  font-size: 1.4rem;
   background-color: #fff;
   box-shadow: var(--shadow-light);
   padding: 3rem;
@@ -57,6 +57,8 @@
 }
 
 .user-reviews {
-  background-color: yellowgreen;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

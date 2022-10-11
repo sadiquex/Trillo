@@ -219,13 +219,8 @@ body {
   background-color: transparent;
   cursor: pointer;
   transition: all 0.2s; }
-  .btn-inline span {
-    margin-left: 3px;
-    transition: margin-left 0.2s; }
   .btn-inline:hover {
     color: var(--color-grey-dark-1); }
-    .btn-inline:hover span {
-      margin-left: 8px; }
   .btn-inline:focus {
     outline: none;
     animation: pulsate 1s infinite; }
@@ -287,13 +282,9 @@ body {
   background-color: #fff;
   box-shadow: var(--shadow-light);
   margin-bottom: 3.5rem;
-  padding: 3rem;
-  position: relative;
-  overflow: hidden; }
+  padding: 3rem; }
   .review__text {
-    margin-bottom: 2rem;
-    z-index: 10;
-    position: relative; }
+    margin-bottom: 2rem; }
   .review__user {
     display: flex;
     align-items: center; }
@@ -317,15 +308,7 @@ body {
     color: var(--color-primary);
     font-weight: 400; }
   .review::before {
-    content: '\201C';
-    z-index: 1;
-    position: absolute;
-    top: -2rem;
-    left: -1rem;
-    line-height: 1;
-    font-size: 20rem;
-    color: var(--color-grey-light-2);
-    font-family: sans-serif; }
+    content: ''; }
 
 .container {
   max-width: 120rem;
@@ -371,7 +354,4 @@ body {
   margin-right: 4.5rem; }
 
 .user-reviews {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+  flex: 1; }
